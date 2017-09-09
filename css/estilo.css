@@ -1,0 +1,19 @@
+#clientes li{
+    float: left;
+    margin-top: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#clientes ul li{
+    display: inline;
+    margin-left: 10px;
+    border: 0;
+    padding: 10px;
+}
+
+#clientes ul li a:hover{
+    color: #154F5F;
+}
+
+li:hover ul { display: block; }
